@@ -17,7 +17,7 @@ Examples:
 
 Add this line to your application's Gemfile:
 
-    gem 'rails_aioli_log_formatter'
+    gem 'aioli_log_formatter'
 
 And then execute:
 
@@ -25,7 +25,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rails_aioli_log_formatter
+    $ gem install aioli_log_formatter
 
 ## Usage
 
@@ -109,7 +109,7 @@ See new formatting:
 
 Examples are located under `spec` and `test/dummy/spec` and are executed via:
 
-    $ cd path/to/rails_aioli_log_formatter
+    $ cd path/to/aioli_log_formatter
     $ bundle exec rake spec
 
 
