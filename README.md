@@ -6,7 +6,7 @@ Aioli make our meals delicious, right?
 
 By default it logs lines of format:
 
-    <date> <host> rails[<processId>] <sessionId> u<userId>>: <message>
+    <date> <host> rails[<processId>] <sessionId> u<userId>: <message>
 
 Examples:
 

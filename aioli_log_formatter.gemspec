@@ -11,9 +11,9 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Logging formatter for Rails}
   gem.summary       = %q{Aioli logger (All In One LIne Logger) is a logging formatter for Rails}
   gem.homepage      = "https://github.com/thomasbaustert/aioli_log_formatter"
-
-  gem.files       = Dir["{lib}/**/*"] + ["MIT-LICENSE", "README.md"]
-  gem.test_files  = gem.files.grep(%r{^(test|spec)/})
+  gem.license       = 'MIT'
+  gem.files         = Dir["{lib}/**/*"] + ["MIT-LICENSE", "README.md"]
+  gem.test_files    = gem.files.grep(%r{^(test|spec)/})
   gem.require_paths = ["lib"]
 
   #gem.add_dependency 'rails'
