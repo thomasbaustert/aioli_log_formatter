@@ -5,7 +5,7 @@ module AioliLogFormatter
     config.aioli_log_formatter.formatter = Formatter.new
 
     initializer :aioli_log_formatter do |app|
-      AioliLogFormatter.setup(app) if app.config.aioli_log_formatter.enabled
+      AioliLogFormatter.setup
     end
   end
 end

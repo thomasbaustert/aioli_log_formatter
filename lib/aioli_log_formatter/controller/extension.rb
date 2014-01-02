@@ -17,6 +17,8 @@ module AioliLogFormatter
         USER_ID_PROC = lambda { |controller| controller.session[:user_id] }
 
         def aioli_log_formatter(options = {})
+          return unless Rails.application.config.aioli_log_formatter.enabled
+
           if session_id = options.fetch(:session_id, SESSION_ID_PROC)
             before_filter { |controller| ($session_id ||= {})[Thread.current] = session_id.call(controller) || 0 }
           end

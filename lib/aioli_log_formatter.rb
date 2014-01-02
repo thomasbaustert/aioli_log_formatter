@@ -6,7 +6,7 @@ require 'aioli_log_formatter/controller/extension'
 
 module AioliLogFormatter
 
-  def self.setup(app)
+  def self.setup
     ActionController::Base.send(:include, AioliLogFormatter::Controller::Extension)
   end
 
